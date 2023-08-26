@@ -25,9 +25,6 @@ const connectDB = async () => {
   }
 }
 
-
-//mongoose.connect("mongodb+srv://shingdue:2y1AnqqbuWfLCmVY@clustertw.yahe4y7.mongodb.net/?retryWrites=true&w=majority");
- 
 //Created Schema
 const itemsSchema = new mongoose.Schema({
   name: String
